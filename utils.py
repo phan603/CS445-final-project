@@ -61,6 +61,7 @@ def video2imageFolder(input_file, output_path):
         print("Failed to open input video")
 
     frame_count = cap.get(cv2.CAP_PROP_FRAME_COUNT)
+    print("Frame count: " + str(frame_count))
 
     frame_idx = 0
 
