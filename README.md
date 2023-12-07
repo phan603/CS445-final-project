@@ -36,8 +36,6 @@ To build the project, be sure to download the following software and packages:
  - numpy
  - matplotlib
  - dlib
-   
-The extra .xml and .dat files are provided in the source code.
 
 Once you open the project file, be sure to change the file path in cell 3 to the location of your downloaded repository.
 <img width="544" alt="Screen Shot 2023-12-06 at 9 00 01 PM" src="https://github.com/phan603/CS445-final-project/assets/87063643/3f1eed54-448f-4efc-891d-c07cd8a0fd9b">
