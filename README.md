@@ -7,6 +7,7 @@ On social media platforms such as Snapchat, there are a variety of popular filte
 # Contents
 frames:
  - This folder was created to contain the output of cell 9. This was created to test the *video2imageFolder* function in utils.py.
+
 samples:
  - This folder is used to store your input images and videos.
 results:
