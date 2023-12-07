@@ -45,3 +45,8 @@ After this is done, you may run cells 1 through 7. In the 8th cell, this is wher
 
 Be sure to change the file path for the variables *cap* and *output_video_path*. In order to change your input video and image, you need to edit the filenames in the variables *face_image* and *cap*. As seen in the image above, the input image *face.png* and input video *snapchat.mp4* are currently loaded. Once you have changed these parameters, run the cell to generate your processed video. The output of this cell will be located in the samples folder in your computer's repository directory.
 
+If you decide to use a video other than *snapchat.mp4*, then make sure to comment out this code:
+
+top_quarter_height = filter_frame.shape[0] // 4
+    if filter_face_bbox[1] + filter_face_bbox[3] // 2 > top_quarter_height:
+        continue  # Skip this frame if the face is not in the top quarter
