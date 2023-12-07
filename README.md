@@ -36,6 +36,7 @@ To build the project, be sure to download the following software and packages:
  - numpy
  - matplotlib
  - dlib
+   
 The extra .xml and .dat files are provided in the source code.
 
 Once you open the project file, be sure to change the file path in cell 3 to the location of your downloaded repository.
