@@ -47,6 +47,8 @@ Be sure to change the file path for the variables *cap* and *output_video_path*.
 
 If you decide to use a video other than *snapchat.mp4*, then make sure to comment out this code:
 
-top_quarter_height = filter_frame.shape[0] // 4
-    if filter_face_bbox[1] + filter_face_bbox[3] // 2 > top_quarter_height:
-        continue  # Skip this frame if the face is not in the top quarter
+top_quarter_height = filter_frame.shape[0] // 4 
+
+if filter_face_bbox[1] + filter_face_bbox[3] // 2 > top_quarter_height:
+
+continue  # Skip this frame if the face is not in the top quarter
