@@ -10,14 +10,19 @@ frames:
 
 samples:
  - This folder is used to store your input images and videos.
+
 results:
  - This folder is the location of processed output video.
+   
 Final_project.ipynb
  - The main project file. Run this code to generate the output video.
+   
 utils.py
  - Python file containing helper functions from previous CS445 MPs.
+   
 haarcascade_frontalface_default.xml
  - Frontal face detection xml file.
+   
 **shape_predictor_68_face_landmarks.dat**
  - Face landmark detection data file. Download it here: https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
  - Place this file in the same folder as haarcascade_frontalface_default.xml.
