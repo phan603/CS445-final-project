@@ -42,5 +42,6 @@ Once you open the project file, be sure to change the file path in cell 3 to the
 
 After this is done, you may run cells 1 through 7. In the 8th cell, this is where you will input your desired input images and .mp4 files for processing. 
 <img width="983" alt="Screen Shot 2023-12-06 at 9 06 12 PM" src="https://github.com/phan603/CS445-final-project/assets/87063643/6017b52e-455d-42ee-a11b-fba223e39591">
+
 Be sure to change the file path for the variables *cap* and *output_video_path*. In order to change your input video and image, you need to edit the filenames in the variables *face_image* and *cap*. As seen in the image above, the input image *face.png* and input video *snapchat.mp4* are currently loaded. Once you have changed these parameters, run the cell to generate your processed video. The output of this cell will be located in the samples folder in your computer's repository directory.
 
