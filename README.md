@@ -1,7 +1,7 @@
-# CS445 Final Project: GIF Video Face Replacement
+# GIF Video Face Replacement
 
 # About
-For the CS445 final project, we wanted to present our take on Snapchat's face filters. 
+For this project, we wanted to present our take on Snapchat's face filters. 
 On social media platforms such as Snapchat, there are a variety of popular filters that users use on a daily basis. One of the most popular kinds of filters involve the pasting of a detected face onto dancing mascots. For the CS445 final project, we wanted to present our take on these face filters. The focus of this project is to understand how Snapchat engineers create such filters and gain the skills to create a unique filter.
 
 # Contents
